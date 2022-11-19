@@ -33,6 +33,10 @@ main{
     background-color: rgba(5,30,52,255);
 }
 
+.background-badge-blue{
+    background-color: rgba(22,91,186,255);
+}
+
 .background-blue{
     background-color: rgba(27,114,232,255);
 }
