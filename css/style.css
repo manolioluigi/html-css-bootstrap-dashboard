@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 .my-container{
     display: flex;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 56px);
 }
 
 header{
@@ -23,6 +24,7 @@ aside{
 main{
     height: 100%;
     width: calc(100vw - 56px);
+    overflow-y: scroll;
 }
 
 /*Utility*/
@@ -55,6 +57,10 @@ main{
 
 table img{
     width: 20px;
+}
+
+#stats{
+    width: 100%;
 }
 
 /*Temp*/
