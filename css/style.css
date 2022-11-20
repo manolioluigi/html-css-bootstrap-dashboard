@@ -41,8 +41,16 @@ main{
     background-color: rgba(27,114,232,255);
 }
 
+.background-header{
+    background-color: rgba(248,249,250,255);
+}
+
 .color-white{
     color: white;
+}
+
+.color-black{
+    color: black;
 }
 
 .width-50{
@@ -65,6 +73,18 @@ main{
     padding-left: 0;
 }
 
+.fit-content{
+    width: 35px;
+}
+
+.color-orange{
+    color: orange;
+}
+
+.width-70{
+    width: 70vw;
+}
+
 /*Misc*/
 
 table img{
@@ -75,11 +95,13 @@ table img{
     width: 100%;
 }
 
-/*Temp*/
-
-.height-50{
-    height: 50px;
+.position-relative i {
+    font-size: 1rem;
+    color: #333;
+    top: .75rem;
+    left: .75rem
 }
+
 
 /*Media Query*/
 
