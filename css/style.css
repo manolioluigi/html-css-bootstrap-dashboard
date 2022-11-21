@@ -81,8 +81,8 @@ main{
     color: orange;
 }
 
-.width-70{
-    width: 70vw;
+.width-65{
+    width: 65vw;
 }
 
 /*Misc*/
@@ -111,6 +111,10 @@ table img{
     border-left: none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+
+.hover-side:hover{
+    background-color: green;
 }
 
 /*Media Query*/
