@@ -95,13 +95,23 @@ table img{
     width: 100%;
 }
 
-.position-relative i {
-    font-size: 1rem;
-    color: #333;
-    top: .75rem;
-    left: .75rem
+#offcanvasRight{
+    width: 100%;
 }
 
+.search-label{
+    background-color: white;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-right: 0px;
+}
+
+.search-bar{
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
 
 /*Media Query*/
 
@@ -119,5 +129,9 @@ table img{
     main{
         width: calc(100vw-150px);
     }
+
+    #offcanvasRight{
+        width: 50%;
+    }    
 
 }

@@ -34,9 +34,9 @@
                     <img src="./img/mobile-logo.png" alt="mlogo" class="d-lg-none fit-content">
                 </a>
             
-                <form class="d-flex position-relative" role="search">
-                    <i class="fa fa-search position-absolute"></i>
-                    <input class="form-control me-2 width-70" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                <form class="d-flex" role="search">
+                    <span class="input-group-text search-label" id="basic-addon1"><i class="fa fa-search"></i></span> 
+                    <input class="form-control me-2 width-70 search-bar" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                 </form>
                     
                 <div>
@@ -129,13 +129,147 @@
                                     <button type="button" class="btn btn-outline-light btn-md mx-2 color-white type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
 
                                     <!--Canvas-->
-                                    <div class="offcanvas offcanvas-end canvas-width" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                         <div class="offcanvas-header color-black ">
                                           <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                         </div>
                                         <div class="offcanvas-body color-black">
-                                          ...
+                                          
+                                            <div class="container">
+
+                                                <div class="row">
+
+                                                    <div class="col-6">
+
+                                                        <div class="mb-3">
+                                                            <label for="nome" class="form-label">Nome</label>
+                                                            <input type="text" class="form-control" id="nome">
+                                                        </div>                                                        
+
+                                                    </div>
+
+                                                    <div class="col-6">
+
+                                                        <div class="mb-3">
+                                                            <label for="nome" class="form-label">Cognome</label>
+                                                            <input type="text" class="form-control" id="cognome">
+                                                        </div>    
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-6">
+
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <div class="input-group mb-3">
+                                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                                            <input type="mail" class="form-control" aria-label="Mail" aria-describedby="basic-addon1">
+                                                          </div>                                                          
+
+                                                    </div>
+
+                                                    <div class="col-6">
+
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>                                                        
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-12">
+
+                                                        <div class="mb-3">
+                                                            <label for="indirizzo" class="form-label">Indirizzo</label>
+                                                            <input type="text" class="form-control" id="indirizzo">
+                                                        </div>  
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-6">
+
+                                                        <div class="mb-3">
+                                                            <label for="Città" class="form-label">Città</label>
+                                                            <input type="text" class="form-control" id="città">
+                                                        </div>  
+
+                                                    </div>
+
+                                                    <div class="col-4">
+
+                                                        <label for="stato" class="form-label">Stato</label>
+                                                        <select class="form-select" aria-label="Stato">
+                                                            <option selected>Scegli...</option>
+                                                            <option value="1">Italia</option>
+                                                            <option value="2">USA</option>
+                                                            <option value="3">Japan</option>
+                                                        </select>
+
+                                                    </div>
+
+                                                    <div class="col-2">
+
+                                                        <div class="mb-3">
+                                                            <label for="cap" class="form-label">CAP</label>
+                                                            <input type="text" class="form-control" id="cap">
+                                                        </div>  
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-12">
+
+                                                        <div class="my-3">
+                                                        <input type="file" class="form-control" id="inputGroupFile02">
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-12">
+
+                                                        <div class="my-2">
+
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                  Seleziona per proseguire
+                                                                </label>
+                                                            </div>  
+                                                              
+                                                            <div class="my-3">
+
+                                                                <button type="button" class="btn btn-primary">Salva</button>
+                                                                <button type="button" class="btn btn-warning">Svuota</button>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
                                         </div>
                                       </div>
 
