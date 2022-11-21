@@ -113,8 +113,14 @@ table img{
     border-bottom-left-radius: 0px;
 }
 
+/* Hover */
+
 .hover-side:hover{
     background-color: green;
+}
+
+tr:hover{
+    background-color: rgb(215, 245, 255);
 }
 
 /*Media Query*/
